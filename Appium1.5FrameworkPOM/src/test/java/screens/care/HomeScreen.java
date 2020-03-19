@@ -35,7 +35,7 @@ public class HomeScreen extends ScreenBase {
 
 	public int validateButtonCount(){
 		
-		
+		System.out.println("I am writing to check if this update seen in git");
 		return signUpBtn.size();
 		
 	}
