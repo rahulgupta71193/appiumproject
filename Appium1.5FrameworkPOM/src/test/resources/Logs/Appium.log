@@ -1,0 +1,53 @@
+21:36:07,911 DEBUG devpinoyLogger:33 - Appium server started
+21:36:07,913 DEBUG devpinoyLogger:37 - Starting on IOS
+21:36:08,283 DEBUG RequestAddCookies:122 - CookieSpec selected: best-match
+21:36:08,291 DEBUG RequestAuthCache:75 - Auth cache not set in the context
+21:36:08,292 DEBUG PoolingHttpClientConnectionManager:215 - Connection request: [route: {}->http://localhost:4723][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:36:08,306 DEBUG PoolingHttpClientConnectionManager:246 - Connection leased: [id: 0][route: {}->http://localhost:4723][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:36:08,311 DEBUG MainClientExec:217 - Opening connection {}->http://localhost:4723
+21:36:08,313 DEBUG HttpClientConnectionOperator:113 - Connecting to localhost/127.0.0.1:4723
+21:36:08,314 DEBUG HttpClientConnectionOperator:127 - Connection established 127.0.0.1:49434<->127.0.0.1:4723
+21:36:08,314 DEBUG MainClientExec:238 - Executing request POST /wd/hub/session HTTP/1.1
+21:36:08,314 DEBUG MainClientExec:243 - Target auth state: UNCHALLENGED
+21:36:08,315 DEBUG MainClientExec:249 - Proxy auth state: UNCHALLENGED
+21:36:08,316 DEBUG headers:124 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+21:36:08,316 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+21:36:08,316 DEBUG headers:127 - http-outgoing-0 >> Content-Length: 298
+21:36:08,316 DEBUG headers:127 - http-outgoing-0 >> Host: localhost:4723
+21:36:08,317 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+21:36:08,318 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+21:36:08,318 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+21:36:08,318 DEBUG wire:72 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+21:36:08,318 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:36:08,318 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 298[\r][\n]"
+21:36:08,319 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:4723[\r][\n]"
+21:36:08,319 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+21:36:08,319 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+21:36:08,319 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:36:08,319 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+21:36:08,319 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"automationName":"Appium","newCommandTimeout":"300","platformVersion":"9.2.1","app":"com.example.apple-samplecode.UICatalog","platformName":"iOS","deviceName":"iPhone 6 Plus","browserName":"null","udid":"d2c9b1ed479b6501e7078ce3df40e1cfeaf76c66","deviceReadyTimeout":"300"}}"
+21:36:28,762 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+21:36:28,762 DEBUG wire:72 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+21:36:28,762 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+21:36:28,763 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE[\r][\n]"
+21:36:28,763 DEBUG wire:72 - http-outgoing-0 << "Access-Control-Allow-Headers: origin, content-type, accept[\r][\n]"
+21:36:28,763 DEBUG wire:72 - http-outgoing-0 << "Vary: X-HTTP-Method-Override[\r][\n]"
+21:36:28,763 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:36:28,763 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 182[\r][\n]"
+21:36:28,764 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 13 Apr 2016 16:06:28 GMT[\r][\n]"
+21:36:28,764 DEBUG wire:72 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+21:36:28,764 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+21:36:28,764 DEBUG wire:86 - http-outgoing-0 << "{"status":33,"value":{"message":"A new session could not be created. (Original error: Instruments crashed on startup)","origValue":"Instruments crashed on startup"},"sessionId":null}"
+21:36:28,767 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+21:36:28,767 DEBUG headers:116 - http-outgoing-0 << X-Powered-By: Express
+21:36:28,767 DEBUG headers:116 - http-outgoing-0 << Access-Control-Allow-Origin: *
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Access-Control-Allow-Methods: GET,POST,PUT,OPTIONS,DELETE
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Access-Control-Allow-Headers: origin, content-type, accept
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Vary: X-HTTP-Method-Override
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Content-Length: 182
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Date: Wed, 13 Apr 2016 16:06:28 GMT
+21:36:28,768 DEBUG headers:116 - http-outgoing-0 << Connection: keep-alive
+21:36:28,772 DEBUG MainClientExec:267 - Connection can be kept alive indefinitely
+21:36:28,781 DEBUG PoolingHttpClientConnectionManager:276 - Connection [id: 0][route: {}->http://localhost:4723] can be kept alive indefinitely
+21:36:28,781 DEBUG PoolingHttpClientConnectionManager:282 - Connection released: [id: 0][route: {}->http://localhost:4723][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
